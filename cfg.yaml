@@ -1,0 +1,16 @@
+data:
+  y_col: OS_status
+  exclude_cols: [Case_ID,Coohort_ID,OS_time,Random Forest,SVM,Naive Bayes,AdaBoost,Logistic Regression,Neural Network,Neural Network Deep,Logistic Regression L1,Random Forest (1),Random Forest (2),SVM (1),SVM (2),Naive Bayes (1),Naive Bayes (2),AdaBoost (1),AdaBoost (2),Logistic Regression (1),Logistic Regression (2),Neural Network (1),Neural Network (2),Neural Network Deep (1),Neural Network Deep (2),Logistic Regression L1 (1),Logistic Regression L1 (2),Fold]
+  train_data: ./data/train_data.csv
+  valid_data: ./data/valid_data.csv
+  test_data: ./data/test_data.csv
+model:
+  num_of_classes: 2
+  save_model_per_epoch: True
+  save_model_path: ./models
+  batch_size: 8
+  num_epochs: 50
+  learning_rate: 0.01
+  weight_decay: 0.01
+  warmup_epochs: 10
+  history_path: ./history_model.csv
