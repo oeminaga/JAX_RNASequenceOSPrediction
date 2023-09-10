@@ -1,1 +1,1 @@
-# JAX_RNASequenceOSPrediction
+# Prediction of OS from the RNA expression profile
