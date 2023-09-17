@@ -1,5 +1,5 @@
 # Prediction of OS from the RNA expression profile
-A novel model framework to predict OS based on features selected by generative data distribution.
+A novel model framework to predict OS based on features selected by generative data distribution (Work in progress).
 
 We used JAX to develop the framework to predict OS. JAX provides a flexible and fast execution of novel concepts.
 
